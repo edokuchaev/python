@@ -12,9 +12,15 @@ def beauty_out(board):
     print ''
 
 def shuffle_board(board):
+<<<<<<< HEAD
     shuffle(board)
     for y in board:
         shuffle([], y)
+=======
+    #shuffle(board)
+    #for y in board:
+    #    shuffle([], y)
+>>>>>>> 72897e7c5c96e936009fdd60674ce8fa397d20d8
     pass
 
 def get_blank_position(board):
